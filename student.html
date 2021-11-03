@@ -10,12 +10,17 @@
             Create Student
         </header>
         <script>
-            function createStudent(firstName, lastName) {
+            function student(firstName, lastName) {
                var obj = { firstName: "name",
                            lastName: "lastName",
             };
             return obj;
             };
+            var student1 = new Student("Akin", "Adebayo");
+            var student2 = new Student("John", "Chukwu");
+            var student3 = new Student("Ahmed", "Ibrahim");
+            var students = [student1, student2, student3];
+            console.log(students);
         </script>
     </body>
 </html>
